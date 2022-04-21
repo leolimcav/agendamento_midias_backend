@@ -17,10 +17,14 @@
     "test:coverage": "jest --collectCoverage"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^15.0.0",
+    "express": "^4.17.3",
     "jest": "^27.4.7"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@typescript-eslint/parser": "^5.10.2",
